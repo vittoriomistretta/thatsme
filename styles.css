@@ -16,3 +16,9 @@ header {
     max-height: 300px;
     object-fit: contain;
 }
+/* Cambia il colore delle frecce del carosello */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #0056b3; /* Imposta il colore desiderato (es. blu) */
+    border-radius: 50%; /* Facoltativo: arrotonda le frecce */
+}
