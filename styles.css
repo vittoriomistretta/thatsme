@@ -19,10 +19,10 @@ header {
 /* Cambia il colore delle frecce in rosso e lo sfondo in bianco */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: white; /* Sfondo bianco */
-    border-radius: 50%; /* Arrotonda le frecce */
-    width: 50px;
-    height: 50px;
+    background-color: white;  /* Sfondo bianco */
+    border-radius: 50%;       /* Arrotonda lo sfondo */
+    width: 50px;              /* Dimensione del pulsante */
+    height: 50px;             /* Dimensione del pulsante */
 }
 
 /* Personalizza l'icona della freccia precedente in rosso */
