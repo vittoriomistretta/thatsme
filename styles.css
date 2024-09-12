@@ -16,9 +16,21 @@ header {
     max-height: 300px;
     object-fit: contain;
 }
-/* Cambia il colore delle frecce del carosello */
+/* Cambia il colore delle frecce in rosso e lo sfondo in bianco */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #0056b3; /* Imposta il colore desiderato (es. blu) */
-    border-radius: 50%; /* Facoltativo: arrotonda le frecce */
+    background-color: white; /* Sfondo bianco */
+    border-radius: 50%; /* Arrotonda le frecce */
+    width: 50px;
+    height: 50px;
+}
+
+/* Personalizza l'icona della freccia precedente in rosso */
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 16 16"%3E%3Cpath d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/%3E%3C/svg%3E');
+}
+
+/* Personalizza l'icona della freccia successiva in rosso */
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 16 16"%3E%3Cpath d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/%3E%3C/svg%3E');
 }
